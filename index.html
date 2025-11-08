@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menús Bootstrap Multinivel</title>
+
+    <!-- Bootstrap CSS -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+        rel="stylesheet">
+
+    
+</head>
+
+<body class = "bg-dark text-white">
+
+    <div class="container mt-4 d-flex gap-3">
+
+        <div class="dropdown">
+            <button 
+                class="btn btn-primary dropdown-toggle" 
+                type="button" 
+                data-bs-toggle="dropdown">
+                Opcion 1
+            </button>
+
+            <ul class="dropdown-menu">
+
+                <!-- MENÚ 1 -->
+                <li><a class="dropdown-item" href="#">a</a></li>
+                        <li><a class="dropdown-item" href="#">b</a></li>
+                        <li><a class="dropdown-item" href="#">c</a></li>
+                        <li><a class="dropdown-item" href="#">d</a></li>
+                        <li><a class="dropdown-item" href="#">e</a></li>
+                        <li><a class="dropdown-item" href="#">f</a></li>
+                </ul>    
+        </div>
+        <div class="dropdown">
+            <button 
+                class="btn btn-primary dropdown-toggle" 
+                type="button" 
+                data-bs-toggle="dropdown">
+                Opcion 2
+            </button>
+
+            <ul class="dropdown-menu">
+
+                <!-- MENÚ 2 -->
+                <li><a class="dropdown-item" href="#">a</a></li>
+                        <li><a class="dropdown-item" href="#">b</a></li>
+                        <li><a class="dropdown-item" href="#">c</a></li>
+                        <li><a class="dropdown-item" href="#">d</a></li>
+                        <li><a class="dropdown-item" href="#">e</a></li>
+                        <li><a class="dropdown-item" href="#">f</a></li>
+                </ul>
+        </div>
+
+
+
+    </div>
+    <div class="ratio ratio-16x9">
+        <iframe class="" src="sitio/welcome.html" id="visor" frameborder="0" allowfullscreen>
+            Aqui se vera mi sitio.
+        </iframe>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>
